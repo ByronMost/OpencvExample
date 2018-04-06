@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 	{
 		imageName3223 = argv[1];
 	}
-	Mat image;
+	Mat imageasas;
 	image = imread(imageName, IMREAD_COLOR); // Read the file
 	if (image.empty())                      // Check for invalid input
 	{
