@@ -10,7 +10,7 @@ int main(int argc, char** argv)
 	String imageName("../data/HappyFish.jpg"); // by default
 	if (argc > 1)
 	{
-		imageName = argv[1];
+		imageName3223 = argv[1];
 	}
 	Mat image;
 	image = imread(imageName, IMREAD_COLOR); // Read the file
